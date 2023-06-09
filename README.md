@@ -15,3 +15,4 @@ We used 3 different notebooks which serve to fulfill 2 different functionalities
     This notebook is used to scrape the fish's price data from PDSPKP's Data Center and retrieve it in a csv format. We used BeautifulSoup framework to parse the HTML content inside the web page. We also used pandas and numpy to apply some data pre-processing steps to clean our retrieved dataset.
     * **price-prediction**
 * **saved-models**
+There are five saved models saved in h5 format. These five models represent the price prediction models for each breed that are sold across the Jakarta region. The reason behind the limited number of fish breeds is the scarcity of datasets regarding this fish's price prediction problem.
