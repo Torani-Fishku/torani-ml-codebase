@@ -7,7 +7,7 @@ There are several folders that separate each file into their corresponding purpo
 
 Below are the descriptions of each folder. 📂
 
-* **cloud-functions** 🌩️
+* **cloud-functions** 🌩️  
 This is a Cloud Function that creates and runs an ARIMA_PLUS model on BigQuery ML. It also stores the prediction data on Cloud Storage Bucket. The function is triggered by a Cloud Scheduler job that runs weekly. The function consists of two files: main.py and requirements.txt.
     * **main.py**: This file contains the code for the Cloud Function that scrapes, cleans, and processes the data from the web, creates and runs an ARIMA_PLUS model on BigQuery ML, and stores the prediction data on Cloud Storage Bucket. It uses helper functions and modules to perform various tasks and queries.
     * **requirements.txt**: This file contains the list of dependencies for the Cloud Function. It specifies the modules and libraries that are needed to run the code in main.py. It includes requests, pandas, numpy, google-cloud-bigquery, and google-cloud-storage.
