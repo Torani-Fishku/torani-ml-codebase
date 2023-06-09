@@ -11,6 +11,7 @@ Below are the descriptions of each folder.
 
 * **notebooks**  
 We used 3 different notebooks which serve to fulfill 2 different functionalities, data scrape and fish's price prediction functionality.
-    * **data-scrape**
+    * **data-scrape**  
+    This notebook is used to scrape the fish's price data from PDSPKP's Data Center and retrieve it in a csv format. We used BeautifulSoup framework to parse the HTML content inside the web page. We also used pandas and numpy to apply some data pre-processing steps to clean our retrieved dataset.
     * **price-prediction**
 * **saved-models**
